@@ -9,4 +9,3 @@ Clone this repo
 1. Connect WiiMote to PC
 2. Run the script
 3  Open SteamVR
-
