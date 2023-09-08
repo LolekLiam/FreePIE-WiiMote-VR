@@ -1,4 +1,5 @@
-wiimote[0].enable(WiimoteCapabilities.MotionPlus | WiimoteCapabilities.Extension)
+wiimote[0].enable(WiimoteCapabilities.MotionPlus)
+wiimote[0].enable(WiimoteCapabilities.Extension)
 
 #Variables
 DPadUp = wiimote[0].buttons.button_down(WiimoteButtons.DPadUp)
