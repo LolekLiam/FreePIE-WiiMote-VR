@@ -40,6 +40,7 @@ diagnostics.watch(Home)
 diagnostics.watch(One)
 diagnostics.watch(Two)
 
+#Define Call Diagnostics
 def log_motionplus():
 	diagnostics.watch(Pitch)
 	diagnostics.watch(Yaw)
@@ -58,7 +59,8 @@ def log_nunchuck():
 	diagnostics.watch(Nunchuck_Z)
 	diagnostics.watch(Nunchuck_Btn_C)
 	diagnostics.watch(Nunchuck_Btn_Z)
-	
+
+#Call Diagnostics when in use
 wiimote[0].motionplus.update += log_motionplus
 wiimote[0].acceleration.update += log_acceleration
 wiimote[0].nunchuck.update += log_nunchuck
