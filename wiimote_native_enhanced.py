@@ -1,3 +1,4 @@
+#Enable wiimote sensor reading
 wiimote[0].enable(WiimoteCapabilities.MotionPlus)
 wiimote[0].enable(WiimoteCapabilities.Extension)
 
